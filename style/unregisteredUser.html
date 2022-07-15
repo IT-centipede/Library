@@ -24,36 +24,35 @@
         <div class="search--fields">
 
             <!--search string-->
-            <form id="book--search"></form>
-            <p class="search"><input placeholder="Search..." name="books" form="book--search"></p>
+            <form id="book--search">
+                <p class="search">
+                    <label for="book-search-input"></label>
+                    <input id="book-search-input" placeholder="Search..." name="books" form="book--search">
+                </p>
+            </form>
 
             <!--sort by genre string-->
             <form id="genre-sort">
-                <p class="genre"><select name="num" form="genre-sort">
-                    <option>Sort by genre</option>
-                    <option value="detective">Detective</option>
-                    <option value="fiction">Fiction</option>
-                    <option value="adventure">Adventure</option>
-                    <option value="novel">Novel</option>
-                    <option value="science">Science</option>
-                </select></p>
+                    <select name="num" form="genre-sort">
+                        <option>Sort by genre</option>
+                        <option value="detective">Detective</option>
+                        <option value="fiction">Fiction</option>
+                        <option value="adventure">Adventure</option>
+                        <option value="novel">Novel</option>
+                        <option value="science">Science</option>
+                    </select>
             </form>
 
             <!--sort by type string-->
             <form id="type-sort">
-                <p class="type"><select name="num" form="type-sort">
-                    <option>Sort by type</option>
-                    <option value="detective">Digital</option>
-                    <option value="fiction">Audio</option>
-                    <option value="adventure">Paper</option>
-                </select>
-                <div class="book--table">
-                    <table>
-                    <td>some book</td>
-                    <td>genre</td>
-                    <td>type</td>
-                    </table>
-            </div>
+                <p class="type">
+                    <select name="num" form="type-sort">
+                        <option>Sort by type</option>
+                        <option value="detective">Digital</option>
+                        <option value="fiction">Audio</option>
+                        <option value="adventure">Paper</option>
+                    </select>
+                <div class="book--table"></div>
             </form>
         </div>
     </div>
