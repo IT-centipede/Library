@@ -1,9 +1,0 @@
-body {
-    height: 100vh;
-}
-
-#bk-img{
-    width: 1350px;
-    height: 700px;
-    background-image: url("./Resource/Images/back.jpg");
-}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unregistered user</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="unregisteredUser.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima&family=Hahmlet:wght@200&family=IM+Fell+French+Canon+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <span>Library</span>
+        <div class="header--buttons">
+            <button>To main</button>
+        </div>
+    </header>
+
+    <!--main block-->
+    <div class="form--background">
+
+        <!--sorting fields--->
+        <div class="search--fields">
+
+            <!--search string-->
+            <form id="book--search"></form>
+            <p class="search"><input placeholder="Search..." name="books" form="book--search"></p>
+
+            <!--sort by genre string-->
+            <form id="genre-sort">
+                <p class="genre"><select name="num" form="genre-sort">
+                    <option>Sort by genre</option>
+                    <option value="detective">Detective</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="novel">Novel</option>
+                    <option value="science">Science</option>
+                </select></p>
+            </form>
+
+            <!--sort by type string-->
+            <form id="type-sort">
+                <p class="type"><select name="num" form="type-sort">
+                    <option>Sort by type</option>
+                    <option value="detective">Digital</option>
+                    <option value="fiction">Audio</option>
+                    <option value="adventure">Paper</option>
+                </select>
+                <div class="book--table">
+                    <table>
+                    <td>some book</td>
+                    <td>genre</td>
+                    <td>type</td>
+                    </table>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

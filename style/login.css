@@ -1,0 +1,57 @@
+body {
+    height: 100vh;
+    background-image: url("resource/images/back.jpg");
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px ;
+    background-color: rgba(193, 171, 136, 1);
+    height: 60px;
+    font-size: 40px;
+    color: rgba(78, 61, 18, 1);
+    font-family: 'Arima', cursive;
+    font-weight: bold;
+}
+
+header button{
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(248, 245, 178, 1);
+    color: rgba(78, 68, 19, 1);
+}
+
+.log-in--text{
+    color: rgba(99, 55, 24, 1);
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-family: 'Arima', cursive;
+}
+
+.log-in--block{
+    height: 600px;
+    width: 650px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: rgba(231, 203, 184, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.log-in--block button{
+    height: 70px;
+    width: 550px;
+    margin: auto;
+    background-color: rgba(217, 217, 217, 0.7);
+    border: none;
+    font-size: 32px;
+    color: rgba(85, 59, 8, 1);
+    font-family: 'Arima', cursive;
+}
