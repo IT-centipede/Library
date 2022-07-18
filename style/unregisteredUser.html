@@ -5,6 +5,7 @@
     <title>Unregistered user</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="unregisteredUser.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arima&family=Hahmlet:wght@200&family=IM+Fell+French+Canon+SC&display=swap" rel="stylesheet">
@@ -18,42 +19,33 @@
     </header>
 
     <!--main block-->
-    <div class="form--background">
+    <div class="form--bg">
+        <div class="inner--buttuns">
+            <label>
+                <input name="prompt" placeholder="Search...">
+            </label>
 
-        <!--sorting fields--->
-        <div class="search--fields">
+            <label>
+                <input type="text" list="genres" placeholder="Genre">
+                <datalist id="genres">
+                    <option>Novel</option>
+                    <option>Adventure</option>
+                    <option>Science fiction</option>
+                    <option>Dystopia</option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                </datalist>
+            </label>
 
-            <!--search string-->
-            <form id="book--search">
-                <p class="search">
-                    <label for="book-search-input"></label>
-                    <input id="book-search-input" placeholder="Search..." name="books" form="book--search">
-                </p>
-            </form>
-
-            <!--sort by genre string-->
-            <form id="genre-sort">
-                    <select name="num" form="genre-sort">
-                        <option>Sort by genre</option>
-                        <option value="detective">Detective</option>
-                        <option value="fiction">Fiction</option>
-                        <option value="adventure">Adventure</option>
-                        <option value="novel">Novel</option>
-                        <option value="science">Science</option>
-                    </select>
-            </form>
-
-            <!--sort by type string-->
-            <form id="type-sort">
-                <p class="type">
-                    <select name="num" form="type-sort">
-                        <option>Sort by type</option>
-                        <option value="detective">Digital</option>
-                        <option value="fiction">Audio</option>
-                        <option value="adventure">Paper</option>
-                    </select>
-                <div class="book--table"></div>
-            </form>
+            <label>
+                <input type="text" list="something" placeholder="Type">
+                    <datalist id="something">
+                        <option>Audio</option>
+                        <option>Digital</option>
+                        <option>Paper</option>
+                    </datalist>
+            </label>
         </div>
     </div>
 </body>
