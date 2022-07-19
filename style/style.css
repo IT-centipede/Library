@@ -24,7 +24,7 @@ header button{
     color: rgba(78, 68, 19, 1);
 }
 
-.page-header-text{
+.page--header--text{
     background-color: rgba(136, 78, 78, 0.7);
     height: 80px;
     width: 650px;
@@ -56,4 +56,13 @@ header button{
     font-size: 20px;
     color:rgba(107, 60, 34, 1);
     font-weight: bold;
+}
+
+input {
+    border: none;
+    width: 250px;
+    height: 40px;
+    font-size: 25px;
+    opacity: 85%;
+    text-indent: 10px;
 }
