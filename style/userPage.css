@@ -63,3 +63,14 @@ header button{
     color: rgba(65, 65, 65, 0.6);
     text-align: right;
 }
+
+.order--button{
+    height: 45px;
+    width: 250px;
+    border: none;
+    opacity: 80%;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    margin-left: 550px;
+    border-radius: 10px;
+}
