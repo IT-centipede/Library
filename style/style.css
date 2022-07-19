@@ -24,6 +24,10 @@ header button{
     color: rgba(78, 68, 19, 1);
 }
 
+.lib--head{
+    margin-left: 680px;
+}
+
 .page--header--text{
     background-color: rgba(136, 78, 78, 0.7);
     height: 80px;
