@@ -1,0 +1,123 @@
+header button{
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(248, 245, 178, 1);
+    color: rgba(78, 68, 19, 1);
+}
+
+.form--background{
+    width: 1000px;
+    height: 600px;
+    background-color: rgba(217, 217, 217, 0.7);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.search--fields{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.search{
+    font-size: 25px;
+}
+
+.genre{
+    font-size: 27px;
+    border: none;
+}
+
+.type{
+    font-size: 27px;
+}
+
+.form--bg{
+    height: 550px;
+    width: 850px;
+    background-color: rgba(217, 217, 217, 0.7);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner--buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.book--list{
+    margin-top: 35px;
+    font-size: 25px;
+    border-spacing: 12px;
+}
+
+.prompt--unreg{
+    font-size: 24px;
+    color: rgba(65, 65, 65, 0.6);
+    text-align: right;
+}
+
+.order--button{
+    height: 45px;
+    width: 250px;
+    border: none;
+    opacity: 80%;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    margin-left: 550px;
+    border-radius: 10px;
+}
+
+.order-form--inputs{
+    display: flex;
+    flex-direction: column;
+
+}
+
+input{
+    margin: 16px;
+    height: 55px;
+}
+
+.name{
+    width: 760px;
+}
+
+.address{
+    width: 760px;
+}
+
+.postcode{
+    width: 280px;
+}
+
+.phone-number{
+    width: 430px;
+}
+
+.email{
+    width: 500px;
+}
+
+.book-number{
+    width: 200px;
+}
+
+
+.final-order-button{
+    width: 250px;
+    height: 54px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(255, 138, 0, 0.65);
+    margin-left: 300px;
+}
